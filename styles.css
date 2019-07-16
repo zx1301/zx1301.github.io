@@ -3,3 +3,9 @@
   text-align: center;
   padding: 20px;
 }
+
+.p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
