@@ -1,11 +1,11 @@
-h1 {
+.header {
   background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
   text-decoration: underline;
 }
 
-.p  {
+p  {
   color: red;
   font-family: courier;
   font-size: 160%;
