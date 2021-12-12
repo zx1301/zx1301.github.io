@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://zx1301.github.io/sitemap/sitemap-index.xml
+Host: https://zx1301.github.io
