@@ -3,7 +3,7 @@ date: '2019-09-20'
 title: 'Volunteer Supervisor'
 company: 'Girls Who Code'
 location: 'Ewing Township, NJ'
-range: 'September 2019 - Current'
+range: 'September 2019 - December 2019'
 url: 'https://girlswhocode.com/'
 ---
 

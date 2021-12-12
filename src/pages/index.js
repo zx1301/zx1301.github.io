@@ -1,36 +1,36 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import PropTypes from 'prop-types'
-import { Layout, Hero, About, Jobs, Featured, Contact } from '@components'
-import styled from 'styled-components'
-import { mixins, Main } from '@styles'
+import React from 'react';
+import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
+import { Layout, Hero, About, Jobs, Featured, Contact } from '@components';
+import styled from 'styled-components';
+import { mixins, Main } from '@styles';
 
 const MainContainer = styled(Main)`
   ${mixins.sidePadding};
   counter-reset: section;
-`
+`;
 
 const IndexPage = ({ location, data }) => (
   <Layout location={location}>
-    <MainContainer id='content'>
+    <MainContainer id="content">
       <Hero data={data.hero.edges} />
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
       {
-      // <Projects data={data.projects.edges} />
+        // <Projects data={data.projects.edges} />
       }
       <Contact data={data.contact.edges} />
     </MainContainer>
   </Layout>
-)
+);
 
 IndexPage.propTypes = {
   location: PropTypes.object.isRequired,
-  data: PropTypes.object.isRequired
-}
+  data: PropTypes.object.isRequired,
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   {
@@ -117,4 +117,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

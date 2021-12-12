@@ -1,7 +1,6 @@
 module.exports = {
   siteTitle: 'Anthony Kim | Software Engineer',
-  siteDescription:
-    'I\'m a software engineer interested in building websites and applications.',
+  siteDescription: 'I\'m a software engineer interested in building websites and applications.',
   siteKeywords:
     'Anthony Kim, software engineer, front-end engineer, web developer, javascript, TCNJ',
   siteUrl: 'https://zx1301.github.io',
@@ -12,7 +11,6 @@ module.exports = {
   location: 'Old Tappan, NJ',
   email: 'anthonydh10k@gmail.com',
   github: 'https://github.com/zx1301',
-  //twitterHandle: '',
   socialMedia: [
     {
       name: 'Github',
@@ -22,18 +20,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/anthony-kim-1a9343136/',
     },
-    //{
-      //name: 'Codepen',
-      //url: '',
-    //},
     {
       name: 'Instagram',
       url: 'https://www.instagram.com/ttony10k/',
     },
-    //{
-      //name: 'Twitter',
-      //url: '',
-    //},
   ],
 
   navLinks: [

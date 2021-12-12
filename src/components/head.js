@@ -34,7 +34,7 @@ const Head = ({ metadata }) => (
     <meta property="og:url" content={metadata.siteUrl} />
     <meta property="og:site_name" content={metadata.title} />
     {
-    //<meta property="og:image" content={`${config.siteUrl}${ogImage}`} />
+      //<meta property="og:image" content={`${config.siteUrl}${ogImage}`} />
     }
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -43,7 +43,7 @@ const Head = ({ metadata }) => (
     <meta itemProp="name" content={metadata.title} />
     <meta itemProp="description" content={metadata.description} />
     {
-    //<meta itemProp="image" content={`${config.siteUrl}${ogImage}`} />
+      //<meta itemProp="image" content={`${config.siteUrl}${ogImage}`} />
     }
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={metadata.siteUrl} />
@@ -52,10 +52,9 @@ const Head = ({ metadata }) => (
     <meta name="twitter:title" content={metadata.title} />
     <meta name="twitter:description" content={metadata.description} />
     {
-    //<meta name="twitter:image" content={`${config.siteUrl}${ogImage}`} />
+      //<meta name="twitter:image" content={`${config.siteUrl}${ogImage}`} />
     }
     <meta name="twitter:image:alt" content={metadata.title} />
-
     <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57x57} />
     <link rel="apple-touch-icon" sizes="60x60" href={appleIcon60x60} />
     <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72x72} />
@@ -68,7 +67,7 @@ const Head = ({ metadata }) => (
     <link rel="icon" type="image/png" sizes="192x192" href={androidIcon192x192} />
     <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32} />
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96} />
-   /<link rel="icon" type="image/png" sizes="16x16" href={favicon16x16} />
+    /<link rel="icon" type="image/png" sizes="16x16" href={favicon16x16} />
     <meta name="msapplication-TileColor" content={config.navyColor} />
     <meta name="msapplication-TileImage" content={msIcon144x144} />
     <meta name="theme-color" content={config.navyColor} />

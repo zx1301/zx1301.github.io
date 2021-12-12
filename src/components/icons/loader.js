@@ -4,7 +4,7 @@ const IconLoader = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
     <title>Loader Logo</title>
     <g>
-      <path/*
+      <path /*
         stroke="#64FFDA"
         strokeWidth="5"
         strokeLinecap="round"
@@ -15,7 +15,7 @@ const IconLoader = () => (
                   L 50, 95
                   L 89, 73
                   L 89, 28 z"
-	*/	  
+	*/
         stroke="#64FFDA"
         strokeWidth="5"
         strokeLinecap="round"

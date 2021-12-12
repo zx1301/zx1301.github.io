@@ -271,9 +271,7 @@ const Featured = ({ data }) => {
                   href={external ? external : github ? github : '#'}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
-		  {cover !== null && (
-                    <FeaturedImg fluid={cover.childImageSharp.fluid} />
-		  )}
+                  {cover !== null && <FeaturedImg fluid={cover.childImageSharp.fluid} />}
                 </ImgContainer>
               </Project>
             );
